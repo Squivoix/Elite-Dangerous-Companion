@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<title>ED Companion Register</title>
+		
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="header.css" />
+		<link rel="stylesheet" href="footer.css" />
+		<link rel="stylesheet" href="register.css" />
+	</head>
+	<body>
+		<header>
+			<div id="header-content" >
+				<img id="ed-logo" src="" alt="Elite Dangerous Logo" />
+			</div>
+		</header>
+		<main>
+			<form action="" method="POST" >
+				<label for="username-input">Username</label>
+				<input id="username-input" type="text" placeholder="Username..." />
+				
+				<label for="email-input">E-mail</label>
+				<input id="email-input" type="email" placeholder="E-mail..." />
+				
+				<label for="confirm-email-input">Confirm E-mail</label>
+				<input id="confirm-email-input" type="email" placeholder="Confirm E-mail..." />
+				
+				<label for="password-input">Password</label>
+				<input id="password-input" type="password" placeholder="Password..." />
+				
+				<label for="confirm-password-input">Confirm Password</label>
+				<input id="confirm-password-input" type="password" placeholder="Confirm Password..." />
+				
+				<div>
+					<input id="register-button" type="submit" value="Register" />
+					<input id="cancel-button" type="button" value="Cancel" onclick="location.href='login.html';" />
+				</div>
+			</form>
+		</main>
+		<footer>
+		</footer>
+	</body>
+</html>
